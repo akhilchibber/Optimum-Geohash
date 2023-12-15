@@ -181,7 +181,7 @@ def get_subgeohashes(geohashes):
 
 
 # FUNCTION 7: The goal of this Python function is to come out with a set of geohash for covering a given study area
-def unl_optimum_geohash(input_shapefile, output_shapefile, max_geohash = 10, max_coverage = 10):
+def optimum_geohash(input_shapefile, output_shapefile, max_geohash = 10, max_coverage = 10):
     '''
     STEP 1: Calculating the smallest Geo-Hash which covers the entire Study Area and convert it into 32 Sub_Cells
     '''
